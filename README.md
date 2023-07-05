@@ -24,15 +24,15 @@ In your local repo, create the following files:
 - ```app.py```: Streamlit App.
 - ```requirements.txt```: Project Dependencies.
 
-In this repo, I created a clinical calculator to determine CHA₂DS₂-VASc score for atrial fibrillation stroke risk.
+For this deploy tutorial, I created a clinical calculator to determine CHA₂DS₂-VASc score for atrial fibrillation stroke risk.
 
 ## Step 3: Deploy to Health Universe
 
 1. Push local repo to GitHub.
-2. Go to [https://www.healthuniverse.com](https://www.healthuniverse.com) and navigate to "APPS".
-3. Click "Add App".
-4. Log in or create an account.
-5. Fill out the fields.    
-6. Press "Add App" to deploy. This process may take a few minutes.
+2. Go to https://www.healthuniverse.com.
+3. Log in or create an account.
+4. Click "Deploy App".
+5. Fill out fields.    
+6. Press "Deploy". This process may take a few minutes.
 
 Congratulations! Once you've completed these steps, your Python model should be available as a FastAPI or Streamlit app on Health Universe!
