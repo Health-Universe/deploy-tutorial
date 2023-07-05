@@ -8,7 +8,7 @@ app = FastAPI()
 
 # Decorate Function
 @app.get("/")
-def run(age: int = 65, female: bool = True, chf: bool = False, hypertension: bool = False, stroke_tia: bool = False, vascular_disease: bool = False, diabetes: bool = False) -> str:
+def run(age: int = 65, female: bool = True, chf: bool = False, hypertension: bool = False, stroke_tia: bool = False, vascular_disease: bool = False, diabetes: bool = False):
     return chads_vasc_score(age=age, 
                     female=female, 
                     chf=chf, 
