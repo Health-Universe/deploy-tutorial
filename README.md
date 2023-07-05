@@ -9,12 +9,12 @@ This tutorial will guide you through packaging a Python model into FastAPI and S
 - Familiarity with FastAPI and Streamlit.
 - [GitHub](https://github.com/) Account.
 
-## Step 1: Set up repo
+## Step 1: Set Up Repo
 
 1. Create a new GitHub repo to host your project.
 2. Clone the repo to your local machine.
 
-## Step 2: Package app
+## Step 2: Package App
 
 In your local repo, create the following files:
 
