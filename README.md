@@ -31,8 +31,8 @@ For this deploy tutorial, I created a clinical calculator to determine CHAâ‚‚DSâ
 1. Push local repo to GitHub.
 2. Go to https://www.healthuniverse.com.
 3. Log in or create an account.
-4. Click "Deploy App".
+4. Click **Deploy App**.
 5. Fill out fields.    
-6. Press "Deploy". This process may take a few minutes.
+6. Press **Deploy**. This process may take a few minutes.
 
 Congratulations! Once you've completed these steps, your Python model should be available as a FastAPI or Streamlit app on Health Universe!
