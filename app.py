@@ -11,7 +11,7 @@ cols = st.columns(2)
 
 cols[0].markdown("#### Patient Information")
 age = cols[0].number_input("Age", min_value=0, max_value=120, value=65)
-sex = cols[0].radio("Sex", ["Male", "Female"])
+sex = cols[0].radio("Sex", ["Male", "Female"], horizontal=True)
 
 cols[1].markdown("#### Past Medical History")
 chf = cols[1].checkbox("Congestive Heart Failure (CHF)")
