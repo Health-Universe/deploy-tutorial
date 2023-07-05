@@ -30,7 +30,7 @@ score = chads_vasc_score(age=age,
                 diabetes=diabetes)
 cols[0].info(f"CHA₂DS₂-VASc Score: {score}")
 
-cols[1].markdown("See [MDCalc](https://www.mdcalc.com/) for score details.")
+cols[1].markdown("See [MDCalc](https://www.mdcalc.com/) for details.")
 
 st.divider()
 
