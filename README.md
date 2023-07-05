@@ -1,6 +1,7 @@
 # Deploying An App to Health Universe
 
-Welcome to the [Health Universe](https://www.healthuniverse.com) community!
+**Welcome to the [Health Universe](https://www.healthuniverse.com) community!**
+
 Health Universe is an open-source cloud deployment platform for ML/AI from science to medicine.
 This tutorial will guide you through packaging a Python model into FastAPI and Streamlit apps for deploying to Health Universe.
 
