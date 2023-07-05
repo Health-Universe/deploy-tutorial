@@ -1,0 +1,4 @@
+fastapi
+streamlit
+uvicorn
+# Include any other libraries required by your model.
