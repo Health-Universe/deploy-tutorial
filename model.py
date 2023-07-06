@@ -1,6 +1,9 @@
 import pandas as pd
 
-def chads_vasc_score(age: int, female: bool, chf: bool, hypertension: bool, stroke_tia: bool, vascular_disease: bool, diabetes: bool) -> int:
+def chads_vasc_score(age: int, female: bool, 
+                     chf: bool, hypertension: bool, 
+                     stroke_tia: bool, vascular_disease: bool, 
+                     diabetes: bool) -> int:
     """
     Calculate the CHA2DS2-VASc score based on input parameters.
 
