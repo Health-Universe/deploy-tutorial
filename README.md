@@ -3,7 +3,7 @@
 **Welcome to the [Health Universe](https://www.healthuniverse.com) community!**
 
 Health Universe is an open-source cloud deployment platform for ML/AI from science to medicine.
-This tutorial will guide you through packaging a Python model into FastAPI and Streamlit apps for deploying to Health Universe.
+This tutorial will guide you through packaging a Python model into [FastAPI](https://fastapi.tiangolo.com) and [Streamlit](https://streamlit.io) apps for deploying to Health Universe.
 
 ## Prerequisites
 
