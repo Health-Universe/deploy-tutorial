@@ -3,17 +3,17 @@ from model import chads_vasc_score, df
 import streamlit as st
 
 # Text
-st.markdown("## CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk 🫀")
+st.header("🫀 CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk")
 st.divider()
 
 # Inputs
 cols = st.columns(2)
 
-cols[0].markdown("#### Patient Information")
+cols[0].subheader("Patient Information")
 age = cols[0].number_input("Age", min_value=0, max_value=120, value=65)
 sex = cols[0].radio("Sex", ["Male", "Female"], horizontal=True)
 
-cols[1].markdown("#### Past Medical History")
+cols[1].subheader("Past Medical History")
 chf = cols[1].checkbox("Congestive Heart Failure (CHF)")
 hypertension = cols[1].checkbox("Hypertension")
 stroke_tia = cols[1].checkbox("Stroke or Transient Ischemic Attack (TIA)")
