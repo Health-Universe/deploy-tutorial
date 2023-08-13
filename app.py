@@ -3,7 +3,7 @@ from model import chads_vasc_score, df
 import streamlit as st
 
 # Text
-st.header("🫀 CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk")
+st.header("CHA₂DS₂-VASc Score for Atrial Fibrillation Stroke Risk")
 st.divider()
 
 # Inputs
